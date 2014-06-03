@@ -170,3 +170,7 @@ Step 3. In bower.json of yo folder in ui project make sure the file will not hav
 		  "version": "0.0.0"
 		}
 
+#References:
+
+1. https://github.com/trecloux/yeoman-maven-plugin#yeoman-maven-plugin
+2. http://yeoman.io/
