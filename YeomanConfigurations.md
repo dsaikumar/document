@@ -1,6 +1,5 @@
 # Yeoman Configurations
 
-- - -
 
 ###**Fresh Installation of Yeoman Setup**
 
