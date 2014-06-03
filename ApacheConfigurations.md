@@ -25,3 +25,38 @@ Add these lines to httpd/conf/httpd.conf  file
     ProxyPassReverse /url http://alias.host.com/url
     
 
+## Configuration for multiple ports running of apache and binding to different server ip or different port of same ip
+
+    Listen localhost:4444
+    <VirtualHost *:4444>
+        DocumentRoot C:/apps/ApacheSoftwareFoundation/Apache2.2/htdocs/4444
+        ServerName localhost
+        ProxyPreserveHost On
+        
+        ProxyPass /cab http://localhost:8080/cab
+        ProxyPassReverse /cab http://localhost:8080/cab
+        
+        ProxyPass /manage http://localhost:8080/manage
+        ProxyPassReverse /manage http://localhost:8080/manage
+        
+        ProxyPass /core http://localhost:5555/core
+        ProxyPassReverse /dsnap-core http://localhost:5555/core
+        
+        ErrorLog logs/localhost-error4444.log
+    </VirtualHost>
+    
+    Listen localhost:5555
+    <VirtualHost *:5555>
+        DocumentRoot C:/apps/ApacheSoftwareFoundation/Apache2.2/htdocs/5555
+        ServerName localhost
+        ProxyPreserveHost On   
+        
+        ProxyPass /core http://localhost:8080/core
+        ProxyPassReverse /core http://localhost:8080/core    
+    
+        ErrorLog logs/localhost-error5555.log
+    </VirtualHost>
+
+## To include other configurations
+
+> Include "/path/hosts.conf"
