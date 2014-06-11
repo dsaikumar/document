@@ -5,4 +5,6 @@ Documents
 
 2. [Yeoman Configurations](YeomanConfigurations.md)
 
-2. [Maven Configurations](MavenConfigurations.md)
+3. [Maven Configurations](MavenConfigurations.md)
+
+3. [Java Configurations](JavaConfigurations.md)
