@@ -15,3 +15,12 @@ Step 02. Start tomcat using catalina.bat jpda start . Make sure that you have re
 
 Step 03. Debug program from the IDE and bind to 8001 (on JPDA_ADDRESS) port.
 
+###Enabling the JMX for tomcat to monitor in VisualVM
+
+In Windows
+    
+    startup.bat -Dcom.sun.management.jmxremote.port=<your_jmx_port> -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false
+    
+In Linux
+    
+    startup.bat -Dcom.sun.management.jmxremote.port=<your_jmx_port> -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false
