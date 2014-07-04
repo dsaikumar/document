@@ -23,4 +23,4 @@ In Windows
     
 In Linux
     
-    startup.bat -Dcom.sun.management.jmxremote.port=<your_jmx_port> -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false
+    startup.sh -Dcom.sun.management.jmxremote.port=<your_jmx_port> -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false
