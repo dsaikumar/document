@@ -40,7 +40,7 @@ Add these lines to httpd/conf/httpd.conf  file
         ProxyPassReverse /manage http://localhost:8080/manage
         
         ProxyPass /core http://localhost:5555/core
-        ProxyPassReverse /dsnap-core http://localhost:5555/core
+        ProxyPassReverse /core http://localhost:5555/core
         
         ErrorLog logs/localhost-error4444.log
     </VirtualHost>
