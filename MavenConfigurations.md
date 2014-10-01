@@ -29,8 +29,8 @@
 
 
 
-#### Maven Profiles configuration
-###### Profile Configuration
+#### Profile Configuration
+
 In the current project or in parent project, just configure the following profiles :
 
 	<profiles>
