@@ -1,10 +1,10 @@
 # Maven configurations
 
-#### Pointing to maven repository
+## Pointing to maven repository
 
 == TODO
 
-#### Java Runtime Version Configuration
+## Java Runtime Version Configuration
 
     <build>
 	 <pluginManagement>
@@ -29,7 +29,7 @@
 
 
 
-#### Profile Configuration
+## Profile Configuration
 
 In the current project or in parent project, just configure the following profiles :
 
