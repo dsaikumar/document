@@ -57,7 +57,7 @@ Add these lines to httpd/conf/httpd.conf  file
         ErrorLog logs/localhost-error5555.log
     </VirtualHost>
     
-## SSL Proxy configuration
+## SSL configuration for https proxy sever
 
     Listen localhost:4444
     <VirtualHost *:4444>
@@ -84,7 +84,7 @@ Add these lines to httpd/conf/httpd.conf  file
 
 Note :
  
-    1. The after the SSL configuration you can access the application using the https only.
+    1. After the SSL configuration you can access the application using the https only.
     2. The proxy URL you use need to be of SSL only.
 
   
