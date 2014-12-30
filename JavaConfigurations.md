@@ -15,6 +15,9 @@ Step 02. Start tomcat using catalina.bat jpda start . Make sure that you have re
 
 Step 03. Debug program from the IDE and bind to 8001 (on JPDA_ADDRESS) port.
 
+
+
+
 ###Enabling the JMX for tomcat to monitor in VisualVM
 
 In Windows
@@ -38,7 +41,7 @@ In Linux
 6. Set the FormDataMultiPart body with the FormDataBodyPart prepared object
 
 
-###Ref
+Sample Code
 
 com.sun.jersey.core.header.FormDataContentDisposition
 com.sun.jersey.multipart.FormDataBodyPart
