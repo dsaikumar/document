@@ -7,4 +7,4 @@ Documents
 
 3. [Maven Configurations](MavenConfigurations.md)
 
-3. [Java Configurations](JavaConfigurations.md)
+4. [Java Configurations](JavaConfigurations.md)
